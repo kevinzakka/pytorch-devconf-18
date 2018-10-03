@@ -1,3 +1,11 @@
+## The Man, The Myth, The Legend
+
+<p align="center">
+ <img src="./imgs/soumith.png" alt="Drawing" width=30%>
+</p>
+
+Big, big thanks to [Soumith Chintala](http://soumith.ch/)!
+
 ## Applied Research in Academia
 
 * Stochastic Weight Averaging: Wider Optima ==> Better Generalizability
