@@ -46,3 +46,23 @@
     * Supersampling (Anti-Aliasing + Superresolution) ==> Better, Prettier Graphics.
     * Inpainting ==> Helping the Photo-Editing Process, i.e. "Smart Brush".
     * Using Mixed Precision for Training Larger and Faster Unsupervised Language Models ==> Apex takes care of automatic casting (e.g. batch norm bad with fp16).
+
+## fast.ai and PyTorch
+
+<p align="center">
+ <img src="./imgs/fastai.png" alt="Drawing" width=20%>
+</p>
+
+
+"Making deep learning more accessible" through:
+
+* Software
+* Education
+* Research
+* Community
+
+Keras equivalent for PyTorch but with SOTA algos and models built in.
+
+* Forum: http://forums.fast.ai/
+* Blog: http://www.fast.ai/
+* Courses: http://course.fast.ai/
