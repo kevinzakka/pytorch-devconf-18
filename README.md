@@ -7,10 +7,28 @@
 
 ## Karpathy's Software 2.0
 
-* Version Controlling a Dataset
+**Goal**. Figure out best software engineering practices for DL.
+
+* Test Driven Development Workflow:
+    * 90/10 split not enough anymore
+    * Test Set is extremely important
+    * "Curate your test set", "Massage your Dataset"
+    * Should be clean, varied and rich
+    * Edge cases are super important.
+    * Fixing a bug is equivalent to changing model architecture, adding more examples of a certain class, etc.
+* CI:
+    * Automating training, unit testing, and deployment.
+    * Rebuild on every change
+* Version Controlling a Dataset:
+    * Adding data of a certain type means changing the code.
+    * Labels change over time. Think of them as commits.
 * Keeping a Model Zoo
-* DevOps + CI
-* "Curating Your Test Set"
+* Mono-Repos:
+    * 1 shared code base
+    * Minimize dependencies
+    * 1 big network and each subdivision of company fintunes to their needs.
+
+**Summary**. Treat DNNs as code. Adopt software practices to the DL stack.
 
 ## Catanzaro's Applied ML
 
